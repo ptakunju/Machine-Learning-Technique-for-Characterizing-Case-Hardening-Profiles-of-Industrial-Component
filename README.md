@@ -4,6 +4,8 @@
 
 This repository provides an overview of the paper nonlinear eddy current technique for assessing case hardening profiles. The method uses a custom electromagnetic excitation-sensor array to measure nonlinear responses at multiple frequencies, enabling nondestructive characterization of case depth profiles.
 
+“Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles” Published in IEEE Transactions on Magnetics, VOL. 46, NO. 6, JUNE 2010.
+
 ## Introduction
 
 Industrial components, such as automotive bearing assemblies, are often case-hardened for durability. Traditional case-depth evaluation methods are destructive and time-consuming. This project introduces a novel nonlinear eddy current technique for nondestructive testing (NDT) by leveraging differences in magnetic properties between case-hardened and untreated regions.
@@ -49,6 +51,4 @@ A sinusoidal excitation signal is applied to the series-connected excitation coi
 - Demonstrated ML effectiveness in industrial nondestructive evaluation.
 
 ## References
-
-“Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles” Published in IEEE Transactions on Magnetics, VOL. 46, NO. 6, JUNE 2010.
 S. C. Chan, R. Grimberg, J. A. Hejase, et al., "Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles," *IEEE Transactions on Magnetics*, vol. 46, no. 6, pp. 1821-1824, 2010.
