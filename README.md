@@ -62,9 +62,11 @@ Two signal classification algorithms are used in the nonlinear eddy current insp
 
 
 
-### Results & Conclusion
+## Results & Conclusion
 
-#### Table I: Specifications of master lots categorized into Accept, Baseline Accept, Baseline Reject, and Reject based on core depth and manufacturer criteria.
+Master lots of bearing assemblies with various known L-dimensions and associated core depths have been custom manufactured for evaluating the inspection system. These master lots are categorized into four classes based on manufacturer specifications: Accept, Baseline Accept, Baseline Reject, and Reject. The specifications for these master lots are provided in Table I
+
+### Table I: Specifications of master lots categorized into Accept, Baseline Accept, Baseline Reject, and Reject based on core depth and manufacturer criteria.
 
 | Lot | L-Dimension (mm) | Core Depth (mm) | Condition |
 |----|----------------|----------------|-----------|
@@ -73,7 +75,9 @@ Two signal classification algorithms are used in the nonlinear eddy current insp
 | 3  | 12.75        | 3.5            | Baseline Reject |
 | 4  | 13.9-14      | 2.8            | Reject    |
 
-#### Table II: Neural network classification results, achieving 95.77% overall accuracy but showing a 14.29% error for Baseline Reject parts.
+The inspection system was tested using these master lots with both the neural network and ID3 algorithms. The classification results of previously untrained samples are presented in Table II, showing an overall accuracy of 95.77%, though the Baseline Reject parts had a higher misclassification rate of 14.29%.
+
+### Table II: Neural network classification results, achieving 95.77% overall accuracy but showing a 14.29% error for Baseline Reject parts.
 
 | Sample Group     | No. of Parts Tested | No. of Parts Correctly Classified | Accuracy |
 |-----------------|---------------------|----------------------------------|----------|
@@ -82,7 +86,9 @@ Two signal classification algorithms are used in the nonlinear eddy current insp
 | Baseline Reject | 21                  | 18                               | 85.71%   |
 | Reject         | 17                  | 17                               | 100%     |
 
-#### Table III: ID3 algorithm classification results, with 95.65% overall accuracy and a more evenly distributed error across categories.
+For the ID3 algorithm, 100 samples were used for training and 69 for testing. The composition of the training and testing sample groups, as well as the classification results, are listed in Table III. 
+
+### Table III: ID3 algorithm classification results, with 95.65% overall accuracy and a more evenly distributed error across categories.
 
 | Sample Group     | No. of Training Parts | No. of Test Parts | No. of Parts Correctly Classified | Accuracy |
 |-----------------|---------------------|----------------|----------------------------------|----------|
@@ -90,6 +96,9 @@ Two signal classification algorithms are used in the nonlinear eddy current insp
 | B. Accept      | 30                  | 20             | 19                               | 95%      |
 | B. Reject      | 30                  | 21             | 20                               | 95.23%   |
 | Reject         | 23                  | 16             | 15                               | 93.75%   |
+
+The system correctly classified the Accept parts, and presented a 5%, 4.77% and 6.25% error for the Baseline Accept, Baseline Reject and Reject parts, respectively.
+
 
 A novel nonlinear eddy current inspection technique has been developed for characterizing the case depth profile of a component, making it suitable for both general applications and scenarios where the case-hardened region is not easily accessible. Its application to automotive bearing assemblies with complex geometries has demonstrated an impressive accuracy of approximately 95.7% in identifying acceptable assemblies. This technique shows great promise in effectively characterizing the case profile of induction-hardened parts, making it a valuable tool for quality assessment in industrial settings.
 
