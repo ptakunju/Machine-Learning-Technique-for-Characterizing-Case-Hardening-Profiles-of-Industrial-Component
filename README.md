@@ -1,4 +1,4 @@
-# Paper: Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles
+# Machine Learning Technique for Characterizing Case Hardening Profiles of Industrial Components
 
 ## Overview
 
@@ -56,10 +56,9 @@ From the frequency spectrum of each difference signal, the ratios of the third t
  
 ![Feature Extraction & ML Model Training](./figures/Fig-8.png)
 
-Two signal classification algorithms are used in the nonlinear eddy current inspection system: 
+Two Machine Learning classification algorithms deployed are: 
 - An artificial neural network
 - Iterative Dichotomiser 3 (ID3) algorithm
-
 
 
 ## Results & Conclusion
@@ -102,9 +101,5 @@ The system correctly classified the Accept parts, and presented a 5%, 4.77% and
 
 A novel nonlinear eddy current inspection technique has been developed for characterizing the case depth profile of a component, making it suitable for both general applications and scenarios where the case-hardened region is not easily accessible. Its application to automotive bearing assemblies with complex geometries has demonstrated an impressive accuracy of approximately 95.7% in identifying acceptable assemblies. This technique shows great promise in effectively characterizing the case profile of induction-hardened parts, making it a valuable tool for quality assessment in industrial settings.
 
-## Acknowledgment
-
-The authors thank S. Brown and P. Predmesky of SKF Automotive Division (Plymouth, MI) for the technical support and providing bearing assemblies for testing. This work was supported by a Grant from SKF USA, 
-
 ## References
-S. C. Chan, R. Grimberg, J. A. Hejase, et al., "Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles," *IEEE Transactions on Magnetics*, vol. 46, no. 6, pp. 1821-1824, 2010.
+S. C. Chan, R. Grimberg, J. A. Hejase, P. L. Takunju, et al., "Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles," *IEEE Transactions on Magnetics*, vol. 46, no. 6, pp. 1821-1824, 2010. 
