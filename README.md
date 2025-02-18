@@ -63,8 +63,35 @@ Two signal classification algorithms are used in the nonlinear eddy current insp
 
 
 ### Results & Conclusion
-Put tables 1-3
-Paste the conclusion here
+
+#### Table I: Specifications of master lots categorized into Accept, Baseline Accept, Baseline Reject, and Reject based on core depth and manufacturer criteria.
+
+| Lot | L-Dimension (mm) | Core Depth (mm) | Condition |
+|----|----------------|----------------|-----------|
+| 1  | 10.6          | 5              | Accept    |
+| 2  | 11.7-11.82    | 4              | Baseline Accept |
+| 3  | 12.75        | 3.5            | Baseline Reject |
+| 4  | 13.9-14      | 2.8            | Reject    |
+
+#### Table II: Neural network classification results, achieving 95.77% overall accuracy but showing a 14.29% error for Baseline Reject parts.
+
+| Sample Group     | No. of Parts Tested | No. of Parts Correctly Classified | Accuracy |
+|-----------------|---------------------|----------------------------------|----------|
+| Accept         | 13                  | 13                               | 100%     |
+| Baseline Accept | 20                  | 20                               | 100%     |
+| Baseline Reject | 21                  | 18                               | 85.71%   |
+| Reject         | 17                  | 17                               | 100%     |
+
+#### Table III: ID3 algorithm classification results, with 95.65% overall accuracy and a more evenly distributed error across categories.
+
+| Sample Group     | No. of Training Parts | No. of Test Parts | No. of Parts Correctly Classified | Accuracy |
+|-----------------|---------------------|----------------|----------------------------------|----------|
+| Accept         | 17                  | 12             | 12                               | 100%     |
+| B. Accept      | 30                  | 20             | 19                               | 95%      |
+| B. Reject      | 30                  | 21             | 20                               | 95.23%   |
+| Reject         | 23                  | 16             | 15                               | 93.75%   |
+
+A novel nonlinear eddy current inspection technique has been developed for characterizing the case depth profile of a component, making it suitable for both general applications and scenarios where the case-hardened region is not easily accessible. Its application to automotive bearing assemblies with complex geometries has demonstrated an impressive accuracy of approximately 95.7% in identifying acceptable assemblies. This technique shows great promise in effectively characterizing the case profile of induction-hardened parts, making it a valuable tool for quality assessment in industrial settings.
 
 ## References
 S. C. Chan, R. Grimberg, J. A. Hejase, et al., "Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles," *IEEE Transactions on Magnetics*, vol. 46, no. 6, pp. 1821-1824, 2010.
