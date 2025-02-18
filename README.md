@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/decc1727-abd3-40d4-a15c-ba2e53c0757b)# Paper: Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles
+# Paper: Nonlinear Eddy Current Technique for Characterizing Case Hardening Profiles
 
 ## Overview
 
