@@ -93,8 +93,8 @@ For the ID3 algorithm, 100 samples were used for training and 69 for testing. T
 | Sample Group     | No. of Training Parts | No. of Test Parts | No. of Parts Correctly Classified | Accuracy |
 |-----------------|---------------------|----------------|----------------------------------|----------|
 | Accept         | 17                  | 12             | 12                               | 100%     |
-| B. Accept      | 30                  | 20             | 19                               | 95%      |
-| B. Reject      | 30                  | 21             | 20                               | 95.23%   |
+| Baseline Accept     | 30                  | 20             | 19                               | 95%      |
+|  Baseline Reject     | 30                  | 21             | 20                               | 95.23%   |
 | Reject         | 23                  | 16             | 15                               | 93.75%   |
 
 The system correctly classified the Accept parts, and presented a 5%, 4.77% and 6.25% error for the Baseline Accept, Baseline Reject and Reject parts, respectively.
